@@ -15,8 +15,18 @@ const Hero = () => {
         <span className="text-[#2563eb] font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Backend Developer & DevOps</span>
         <h1 className="text-6xl md:text-8xl font-serif text-slate-900 leading-[1.1] mb-6 tracking-tight">Hi, I'm <br /> <span className="text-[#2563eb]">Phoebe Rael.</span></h1>
         <p className="text-lg text-slate-600 leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0">
-          A 4th-year Computer Science  student specialized in <span className="font-bold">Spring Boot</span>, Kubernetes, and Angular. Developer of the <span className="text-[#2563eb] font-semibold italic">Masomosoko Marketplace</span>.
-        </p>
+  A 4th-year Computer Science student specialized in{" "}
+  <span className="font-bold">Spring Boot</span>, Kubernetes, and Angular. 
+  Developer of the{" "}
+  <a 
+    href="https://masomosoko.co.ke" 
+    target="_blank" 
+    rel="noreferrer" 
+    className="text-[#2563eb] font-semibold italic border-b border-transparent hover:border-[#2563eb] transition-all"
+  >
+    Masomosoko Marketplace
+  </a>.
+</p>
         <div className="flex flex-wrap justify-center lg:justify-start gap-6">
           <a href="#works" className="bg-[#2563eb] text-white px-10 py-4 rounded-full font-bold flex items-center gap-4 hover:bg-[#1d4ed8] transition shadow-xl uppercase tracking-widest text-xs">View Works <HiOutlineArrowNarrowRight size={22} /></a>
           <div className="flex gap-4">

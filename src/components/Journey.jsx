@@ -107,7 +107,7 @@ const Journey = () => {
             >
               <div className="relative z-10">
                 <span className="text-[10px] font-black text-[#2563eb] uppercase tracking-widest bg-blue-50 px-4 py-1 rounded-full mb-5 inline-block">
-                  2022 - 2025
+                  2022 - 2026
                 </span>
                 <h4 className="text-2xl font-bold text-slate-900 mb-2 leading-tight">B.Sc. Computer Science</h4>
                 <p className="text-[#2563eb] font-medium mb-8">Masinde Muliro University of Science and Technology</p>
